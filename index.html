@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Form</title>
+  <link rel="stylesheet" href="./style.css" class="src">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div class="maincontainer">
+    <h1>HOTEL DETAILS FORM</h1>
+    <form id="hotelForm" onsubmit="addhotel()">
+      
+      <label for="hotelName">Hotel name:</label><br>
+      <input type="text" name="" id="hotelName" required><br>
+
+      <label for="location">Location:</label><br>
+      <input type="text" name="" id="location" required><br>
+
+      <label for="rating">Rating:</label><br>
+      <select name="" id="rating" required>
+        <option value="1">1 star</option>
+        <option value="2">2 star</option>
+        <option value="3">3 star</option>
+        <option value="4">4 star</option>
+        <option value="5">5 star</option>
+      </select>
+      <div>
+        <label for="pool">Pool</label>
+        <input type="checkbox" name="" id="pool">
+        <label for="gym">gym</label>
+        <input type="checkbox" name="" id="gym">
+        <label for="spa">spa</label>
+        <input type="checkbox" name="" id="spa">
+      </div><br>
+      <button type="submit">Add hotel</button>
+    </form>
+
+    <table id="hotelTable">
+      <thead>
+        <th>Hotel Name</th>
+        <th>Location</th>
+        <th>Rating</th>
+        <th>Pool</th>
+        <th>Gym</th>
+        <th>Spa</th>
+      </thead>
+      <tbody id="hotelList"></tbody>
+    </table>
+  </div>
+
+</body>
+
+</html>
