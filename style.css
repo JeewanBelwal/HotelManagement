@@ -1,0 +1,68 @@
+#hotelForm{
+    border: 2px solid rgb(183, 110, 184);
+    background-Color: rgb(255, 255, 255);
+    border-Radius: 7px;
+
+}
+ 
+h1{
+      margin: 20px;
+      text-align: center;
+      color: rgb(183, 110, 184);
+}
+body{
+    background-color: #e9d8d8;
+    font-family: Arial;
+}
+button{
+    background-Color: rgb(183, 110, 184);
+      color: rgb(255, 255, 255);
+      cursor: pointer;
+      margin-top: 15px;
+      width: 100px;
+      border: 1px solid black;
+      padding: 10px;
+      margin: auto;
+      display: block;
+}
+button:hover{
+    opacity: 0.9;
+}
+#hotelTable{
+    border-collapse: collapse;
+    width: 960px;
+    background-color: rgb(255,255,255);
+    color: rgb(92,24,111);
+    border: 2px solid rgb(183,110,184);
+    margin: auto;
+}
+label{
+    font-Weight: 700;
+      color: rgb(183, 110, 184);
+}
+input[type="text"],select{
+ width:100%;
+ padding : 5px;
+margin-top: 5px;
+}
+input[type="checkbox"]{
+    margin-left: 5px;
+}
+#hotelForm{
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #B76EBB;
+    border-radius: 7px;
+    background-color: #fff;
+}
+#hotelTable td{
+    padding: 8px;
+    text-align: center;
+}
+
+#hotelTable th{
+    background-color: #876EBB;
+    color: white;
+    padding: 8px;
+}
